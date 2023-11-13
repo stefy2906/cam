@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cam App</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="apple-touch-icon" href="/imagens/camera_256.png"/>
+    <link rel="icon" href="/imagens/camera_256.png" sizes="256x256"/>
+  </head>
+  <body>
+<main id="camera">
+   <canvas id="camera--sensor"></canvas>
+   <video id="camera--view" autoplay playsinline></video>
+   <img src="//:0" alt="" id="camera--output">
+   <button id="camera--trigger"><img src="/imagens/botao.png" alt="" height="20px" width="20px"></button>
+   <button id="trocar"><img src="/imagens/trocar.png" alt="" height="20px" width="20px"></button>
+   <button id="galeria"><img src="/imagens/galeria.png" alt="" height="20px" width="20px"></button>
+
+</main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
